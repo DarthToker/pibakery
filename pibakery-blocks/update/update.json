@@ -1,11 +1,12 @@
 {
 	"name": "update",
-	"text": "Install update\\nRequires internet connection",
+	"text": "Install update. Requires internet connection.",
 	"script": "update.sh",
+	"args": [],
 	"network": true,
 	"continue": true,
-	"type": "software",
-	"category":"software",
-	"shortDescription":"Install any package from the Raspbian repositories. Internet connection required.",
-	"longDescription":"This block is exactly the same as running apt-get install, and allows you to easily install any package from the Raspbian repositories. An internet connection will be required for this to work."
+	"type": "other",
+	"category":"other",
+	"shortDescription":"update",
+	"longDescription":"This block is exactly the same as running sudo apt-get update. An internet connection will be required for this to work."
 }
